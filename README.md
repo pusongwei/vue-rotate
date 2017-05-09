@@ -8,12 +8,13 @@ num:50,                                    //总盒子数
 bgImg:['bg1','bg2','bg3','bg4','bg5'],     //动态更改背景图的class  
 className:[],                              //当前class  
 index:0                                    //当前显示背景图的下标  
-在父组件中引用：
+在父组件中引用：  
+
 import bgImgRotate from '@/components/base/bgimg.vue'  
   
   
 components: {  
-  bgImgRotate  
+  bgImgRotate  
 }  
 在标签中直接写  
 <bgImgRotate></bgImgRotate>  
